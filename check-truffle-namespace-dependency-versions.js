@@ -7,3 +7,4 @@ const debug = require("debug")("check-package-versions");
 
 function main() {
   const packages = readPackages();
+  const errors = [];
