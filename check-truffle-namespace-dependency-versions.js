@@ -11,3 +11,8 @@ function main() {
 
   for (const candidateName in packages) {
     for (const dependencyName in packages) {
+      errors.push(
+        ...checkDependencyVersionRange(
+          packages[candidateName],
+          packages[dependencyName]
+        )
