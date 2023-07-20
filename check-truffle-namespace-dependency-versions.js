@@ -16,3 +16,8 @@ function main() {
           packages[candidateName],
           packages[dependencyName]
         )
+      );
+    }
+  }
+
+  for (const error of errors) {
