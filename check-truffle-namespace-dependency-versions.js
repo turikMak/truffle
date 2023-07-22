@@ -23,3 +23,6 @@ function main() {
   for (const error of errors) {
     console.error(chalk.red("Error:"), error);
   }
+
+  for (const error of errors) {
+    console.error(chalk.red("Error:"), error);
