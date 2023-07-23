@@ -26,3 +26,6 @@ function main() {
 
   for (const error of errors) {
     console.error(chalk.red("Error:"), error);
+  }
+  const doneColor = errors.length > 0 ? chalk.red : chalk.green;
+  console.error(
