@@ -29,3 +29,5 @@ function main() {
   }
   const doneColor = errors.length > 0 ? chalk.red : chalk.green;
   console.error(
+    doneColor("Done."),
+    `Found ${errors.length} errors for @truffle namespace version dependencies.`
