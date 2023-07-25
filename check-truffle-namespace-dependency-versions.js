@@ -31,3 +31,6 @@ function main() {
   console.error(
     doneColor("Done."),
     `Found ${errors.length} errors for @truffle namespace version dependencies.`
+  );
+
+  if (errors.length > 0) {
