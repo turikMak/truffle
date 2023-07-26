@@ -34,3 +34,6 @@ function main() {
   );
 
   if (errors.length > 0) {
+    process.exit(1);
+  }
+}
