@@ -37,3 +37,7 @@ function main() {
     process.exit(1);
   }
 }
+
+function getPackageDirectoryNames() {
+  return fs.readdirSync(path.join(__dirname, "..", "packages"));
+}
