@@ -43,3 +43,4 @@ function getPackageDirectoryNames() {
 }
 
 function readPackages() {
+  const packages = getPackageDirectoryNames();
