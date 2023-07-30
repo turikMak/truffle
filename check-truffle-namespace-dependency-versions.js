@@ -41,6 +41,7 @@ function main() {
 function getPackageDirectoryNames() {
   return fs.readdirSync(path.join(__dirname, "..", "packages"));
 }
-
+  const packageSpecs = {};
+  for (const packageName of packages) {
 function readPackages() {
   const packages = getPackageDirectoryNames();
