@@ -45,3 +45,5 @@ function getPackageDirectoryNames() {
   for (const packageName of packages) {
 function readPackages() {
   const packages = getPackageDirectoryNames();
+  const packageSpecs = {};
+  for (const packageName of packages) {
