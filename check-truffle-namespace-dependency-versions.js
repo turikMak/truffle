@@ -47,3 +47,4 @@ function readPackages() {
   const packages = getPackageDirectoryNames();
   const packageSpecs = {};
   for (const packageName of packages) {
+    const packageFilePath = path.join(
