@@ -48,3 +48,5 @@ function readPackages() {
   const packageSpecs = {};
   for (const packageName of packages) {
     const packageFilePath = path.join(
+      path.resolve(__dirname, "..", "packages", packageName),
+      "package.json"
