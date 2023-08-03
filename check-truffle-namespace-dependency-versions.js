@@ -50,3 +50,6 @@ function readPackages() {
     const packageFilePath = path.join(
       path.resolve(__dirname, "..", "packages", packageName),
       "package.json"
+    );
+    const rawJson = fs.readFileSync(packageFilePath, { encoding: "utf8" });
+    packageSpecs[packageName] = JSON.parse(rawJson);
