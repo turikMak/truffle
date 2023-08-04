@@ -53,3 +53,7 @@ function readPackages() {
     );
     const rawJson = fs.readFileSync(packageFilePath, { encoding: "utf8" });
     packageSpecs[packageName] = JSON.parse(rawJson);
+  }
+
+  return packageSpecs;
+}
