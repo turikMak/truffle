@@ -57,3 +57,6 @@ function readPackages() {
 
   return packageSpecs;
 }
+
+const depTypes = [
+  "dependencies",
