@@ -60,3 +60,5 @@ function readPackages() {
 
 const depTypes = [
   "dependencies",
+  "devDependencies",
+  "peerDependencies",
