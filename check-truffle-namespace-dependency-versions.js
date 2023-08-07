@@ -62,3 +62,7 @@ const depTypes = [
   "dependencies",
   "devDependencies",
   "peerDependencies",
+  "optionalDependencies"
+];
+
+function* checkDependencyVersionRange(candidate, dependency) {
