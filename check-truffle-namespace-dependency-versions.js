@@ -68,3 +68,6 @@ const depTypes = [
 function* checkDependencyVersionRange(candidate, dependency) {
   const name = dependency.name;
   const version = dependency.version;
+
+  for (const depType of depTypes) {
+    const deps = candidate[depType];
