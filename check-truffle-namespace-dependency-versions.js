@@ -74,3 +74,4 @@ function* checkDependencyVersionRange(candidate, dependency) {
     if (deps && Object.keys(deps).includes(name)) {
       const rawRange = deps[name];
       
+      if (rawRange !== `^${version}`) {
