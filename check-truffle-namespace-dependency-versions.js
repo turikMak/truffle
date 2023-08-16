@@ -77,3 +77,4 @@ function* checkDependencyVersionRange(candidate, dependency) {
       if (rawRange !== `^${version}`) {
         yield `Package "${candidate.name}" depends on "${name}@${rawRange}", but range has not been updated for version ${version}`;
       } else {
+        debug(
