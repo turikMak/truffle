@@ -80,3 +80,5 @@ function* checkDependencyVersionRange(candidate, dependency) {
         debug(
           `${candidate.name} requires ${name}@${version} (${rawRange} is up-to-date for version ${version})`
         );
+      }
+    } else {
