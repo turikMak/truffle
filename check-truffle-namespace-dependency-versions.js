@@ -82,3 +82,5 @@ function* checkDependencyVersionRange(candidate, dependency) {
         );
       }
     } else {
+      debug(`${candidate.name} does not require ${name}`);
+    }
