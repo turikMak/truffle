@@ -88,3 +88,5 @@ function* checkDependencyVersionRange(candidate, dependency) {
 }
 
 if (require.main === module) {
+  main();
+}
