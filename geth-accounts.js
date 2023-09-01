@@ -5,3 +5,6 @@
  * geth --dev seeds with a single account so we need to spin
  * up more accounts and short-circuit account auto-locking to get multi-account
  * tests passing.
+ */
+
+function createAccounts() {
