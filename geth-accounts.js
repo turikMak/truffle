@@ -10,3 +10,4 @@
 function createAccounts() {
   let acc;
   for (var i = 0; i < 10; i++) {
+    acc = personal.newAccount("");
