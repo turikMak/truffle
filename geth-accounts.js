@@ -11,3 +11,6 @@ function createAccounts() {
   let acc;
   for (var i = 0; i < 10; i++) {
     acc = personal.newAccount("");
+    personal.unlockAccount(acc, "");
+    eth.sendTransaction({from: eth.accounts[0], to: acc, value: web3.toWei(1000, "ether")});
+  }
