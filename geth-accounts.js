@@ -17,3 +17,4 @@ function createAccounts() {
 }
 
 function unlockAccounts() {
+  eth.accounts.forEach(function (account) {
