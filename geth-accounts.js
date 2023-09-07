@@ -18,3 +18,5 @@ function createAccounts() {
 
 function unlockAccounts() {
   eth.accounts.forEach(function (account) {
+    console.log('Unlocking ' + account + '...');
+    personal.unlockAccount(account, '', 0);
