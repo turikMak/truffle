@@ -24,3 +24,5 @@ function unlockAccounts() {
 }
 
 function setupDevNode() {
+  // keep accounts unlocked
+  unlockAccounts();
