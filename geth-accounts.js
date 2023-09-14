@@ -29,3 +29,4 @@ function setupDevNode() {
 }
 
 createAccounts();
+setupDevNode();
