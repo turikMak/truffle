@@ -11,3 +11,5 @@ GETH_VERSION="v1.10.26"
 docker pull "ethereum/client-go:$GETH_VERSION"
 
 CID=$(docker run \
+  -v /$PWD/scripts:/scripts \
+  -t \
