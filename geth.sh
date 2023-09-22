@@ -13,3 +13,5 @@ docker pull "ethereum/client-go:$GETH_VERSION"
 CID=$(docker run \
   -v /$PWD/scripts:/scripts \
   -t \
+  -d \
+  -p 8545:8545 \
