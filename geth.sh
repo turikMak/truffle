@@ -17,3 +17,5 @@ CID=$(docker run \
   -p 8545:8545 \
   -p 8546:8546 \
   -p 30303:30303 \
+  "ethereum/client-go:$GETH_VERSION" \
+  --http \
