@@ -19,3 +19,4 @@ CID=$(docker run \
   -p 30303:30303 \
   "ethereum/client-go:$GETH_VERSION" \
   --http \
+  --http.addr '0.0.0.0' \
