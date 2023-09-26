@@ -20,3 +20,5 @@ CID=$(docker run \
   "ethereum/client-go:$GETH_VERSION" \
   --http \
   --http.addr '0.0.0.0' \
+  --http.port 8545 \
+  --http.corsdomain '*' \
