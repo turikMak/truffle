@@ -24,3 +24,4 @@ CID=$(docker run \
   --http.corsdomain '*' \
   --ws \
   --ws.addr '0.0.0.0' \
+  --ws.origins '*' \
