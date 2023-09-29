@@ -25,3 +25,5 @@ CID=$(docker run \
   --ws \
   --ws.addr '0.0.0.0' \
   --ws.origins '*' \
+  --nodiscover \
+  --dev \
