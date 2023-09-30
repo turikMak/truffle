@@ -27,3 +27,4 @@ CID=$(docker run \
   --ws.origins '*' \
   --nodiscover \
   --dev \
+  --dev.period 0 \
