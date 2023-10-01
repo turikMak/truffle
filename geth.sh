@@ -28,3 +28,4 @@ CID=$(docker run \
   --nodiscover \
   --dev \
   --dev.period 0 \
+  --allow-insecure-unlock \
