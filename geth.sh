@@ -30,3 +30,4 @@ CID=$(docker run \
   --dev.period 0 \
   --allow-insecure-unlock \
   --preload ./scripts/geth-accounts.js \
+  console)
