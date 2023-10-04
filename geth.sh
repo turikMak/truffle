@@ -31,3 +31,5 @@ CID=$(docker run \
   --allow-insecure-unlock \
   --preload ./scripts/geth-accounts.js \
   console)
+
+printf "Geth running in docker container ${CID}\n"
