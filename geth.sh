@@ -33,3 +33,4 @@ CID=$(docker run \
   console)
 
 printf "Geth running in docker container ${CID}\n"
+printf "Connect to geth:\n  docker exec -it ${CID:0:8} geth attach http://localhost:8545 console\n"
