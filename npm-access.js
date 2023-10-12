@@ -8,3 +8,5 @@ const getPkgPermissions = userOrOrg => {
 
 const getMonorepoPackages = () => {
   const pkgs = execSync('lerna ls')
+    .toString()
+    .split("\n")
