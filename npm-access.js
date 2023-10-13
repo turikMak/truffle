@@ -10,3 +10,4 @@ const getMonorepoPackages = () => {
   const pkgs = execSync('lerna ls')
     .toString()
     .split("\n")
+    .filter(ln => !/^lerna/.test(ln));
