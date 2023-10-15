@@ -11,3 +11,4 @@ const getMonorepoPackages = () => {
     .toString()
     .split("\n")
     .filter(ln => !/^lerna/.test(ln));
+  return new Set(pkgs);
