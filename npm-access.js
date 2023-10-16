@@ -12,3 +12,6 @@ const getMonorepoPackages = () => {
     .split("\n")
     .filter(ln => !/^lerna/.test(ln));
   return new Set(pkgs);
+}
+
+const orgs = ["truffle"];
