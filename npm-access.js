@@ -15,3 +15,6 @@ const getMonorepoPackages = () => {
 }
 
 const orgs = ["truffle"];
+
+for (let org of orgs) {
+  const permissions = getPkgPermissions(org);
