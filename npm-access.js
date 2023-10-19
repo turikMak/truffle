@@ -20,3 +20,5 @@ for (let org of orgs) {
   const permissions = getPkgPermissions(org);
 
   const getNpmUsername = () => {
+    const bufferResponse = execSync("npm whoami");
+    return bufferResponse.toString();
