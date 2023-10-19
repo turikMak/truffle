@@ -22,3 +22,6 @@ for (let org of orgs) {
   const getNpmUsername = () => {
     const bufferResponse = execSync("npm whoami");
     return bufferResponse.toString();
+  };
+
+  const username = getNpmUsername();
