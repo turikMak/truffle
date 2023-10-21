@@ -27,3 +27,4 @@ for (let org of orgs) {
   const username = getNpmUsername();
 
   const userPermissionsObject = getPkgPermissions(username);
+  const monoPkgs = getMonorepoPackages();
