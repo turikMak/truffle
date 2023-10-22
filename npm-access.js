@@ -28,3 +28,6 @@ for (let org of orgs) {
 
   const userPermissionsObject = getPkgPermissions(username);
   const monoPkgs = getMonorepoPackages();
+
+  for (const pkg in permissions) {
+    // skip perm checks if package not in monorepo
