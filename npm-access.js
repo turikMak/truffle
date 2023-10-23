@@ -31,3 +31,5 @@ for (let org of orgs) {
 
   for (const pkg in permissions) {
     // skip perm checks if package not in monorepo
+    if (!monoPkgs.has(pkg)) {
+      continue
