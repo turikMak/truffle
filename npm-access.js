@@ -33,3 +33,6 @@ for (let org of orgs) {
     // skip perm checks if package not in monorepo
     if (!monoPkgs.has(pkg)) {
       continue
+    }
+
+    if (!userPermissionsObject[pkg])
