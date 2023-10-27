@@ -38,3 +38,4 @@ for (let org of orgs) {
     if (!userPermissionsObject[pkg])
       throw new Error(`You don't have permissions to publish ${pkg}`);
     if (permissions[pkg] !== userPermissionsObject[pkg])
+      throw new Error(`Missing correct 'read-write' access to ${pkg}`);
