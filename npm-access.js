@@ -40,3 +40,4 @@ for (let org of orgs) {
     if (permissions[pkg] !== userPermissionsObject[pkg])
       throw new Error(`Missing correct 'read-write' access to ${pkg}`);
   }
+}
