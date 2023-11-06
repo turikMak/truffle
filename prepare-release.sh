@@ -8,3 +8,4 @@ LAST_PUBLISHED_TAG=$(awk -F\" '/"version":/ {print $4}' ./packages/truffle/packa
 ## Get the latest branch states
 git checkout master
 git pull origin master
+git checkout develop
