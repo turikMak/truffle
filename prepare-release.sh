@@ -9,3 +9,6 @@ LAST_PUBLISHED_TAG=$(awk -F\" '/"version":/ {print $4}' ./packages/truffle/packa
 git checkout master
 git pull origin master
 git checkout develop
+git pull origin develop
+
+## Build
