@@ -12,3 +12,4 @@ git checkout develop
 git pull origin develop
 
 ## Build
+yarn install
