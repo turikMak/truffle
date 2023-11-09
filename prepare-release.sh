@@ -13,3 +13,5 @@ git pull origin develop
 
 ## Build
 yarn install
+
+## Get output of changes for release notes
