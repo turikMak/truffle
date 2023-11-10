@@ -15,3 +15,4 @@ git pull origin develop
 yarn install
 
 ## Get output of changes for release notes
+prs-merged-since --repo trufflesuite/truffle --tag v$LAST_PUBLISHED_TAG --format markdown
