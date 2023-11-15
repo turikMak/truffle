@@ -4,3 +4,5 @@
 set -ex
 
 distTag=$1 # first arg after yarn publish-dist-tag
+
+# Optional `lerna version` 'bump' command
