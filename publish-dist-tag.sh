@@ -10,3 +10,5 @@ distTag=$1 # first arg after yarn publish-dist-tag
 #   'major', 'minor', 'patch', 'premajor', 'preminor', 'prepatch', or 'prerelease'.
 # Omitting will prompt the user
 lernaVersionCommand=$2
+
+currentGitBranch=$(git rev-parse --abbrev-ref HEAD)
