@@ -12,3 +12,6 @@ distTag=$1 # first arg after yarn publish-dist-tag
 lernaVersionCommand=$2
 
 currentGitBranch=$(git rev-parse --abbrev-ref HEAD)
+
+if [ "${distTag}" == "" ];
+  then
