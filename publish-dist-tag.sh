@@ -15,3 +15,5 @@ currentGitBranch=$(git rev-parse --abbrev-ref HEAD)
 
 if [ "${distTag}" == "" ];
   then
+    echo "No tag name given!"
+    exit 1
