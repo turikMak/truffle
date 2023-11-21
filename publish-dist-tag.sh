@@ -17,3 +17,6 @@ if [ "${distTag}" == "" ];
   then
     echo "No tag name given!"
     exit 1
+fi
+
+echo "Publishing \"truffle@${distTag}\" from \"${currentGitBranch}\" branch."
