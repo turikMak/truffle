@@ -22,3 +22,4 @@ fi
 echo "Publishing \"truffle@${distTag}\" from \"${currentGitBranch}\" branch."
 
 ## Obtain/check npm access
+npm whoami
