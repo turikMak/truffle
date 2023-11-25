@@ -25,3 +25,5 @@ echo "Publishing \"truffle@${distTag}\" from \"${currentGitBranch}\" branch."
 npm whoami
 if [ "$?" != "0" ];
   then
+    npm login
+fi
