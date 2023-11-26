@@ -27,3 +27,4 @@ if [ "$?" != "0" ];
   then
     npm login
 fi
+node ./scripts/npm-access.js
