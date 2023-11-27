@@ -28,3 +28,5 @@ if [ "$?" != "0" ];
     npm login
 fi
 node ./scripts/npm-access.js
+
+## Bump package versions and commit
