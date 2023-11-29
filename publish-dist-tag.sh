@@ -32,3 +32,4 @@ node ./scripts/npm-access.js
 ## Bump package versions and commit
 lerna version --no-git-tag-version --preid $distTag $lernaVersionCommand
 git add packages/*/package.json
+git commit -m "Publish truffle@${distTag}"
