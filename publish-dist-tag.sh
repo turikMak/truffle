@@ -35,3 +35,4 @@ git add packages/*/package.json
 git commit -m "Publish truffle@${distTag}"
 
 ## Publish packages to npm
+lerna publish from-package --dist-tag ${distTag}
