@@ -36,3 +36,5 @@ git commit -m "Publish truffle@${distTag}"
 
 ## Publish packages to npm
 lerna publish from-package --dist-tag ${distTag}
+
+## Update git branch
