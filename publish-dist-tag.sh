@@ -38,3 +38,4 @@ git commit -m "Publish truffle@${distTag}"
 lerna publish from-package --dist-tag ${distTag}
 
 ## Update git branch
+git push origin $currentGitBranch
