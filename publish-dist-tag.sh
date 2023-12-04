@@ -39,3 +39,5 @@ lerna publish from-package --dist-tag ${distTag}
 
 ## Update git branch
 git push origin $currentGitBranch
+
+## Reinstall using published version
