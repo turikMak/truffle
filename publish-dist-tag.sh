@@ -41,3 +41,4 @@ lerna publish from-package --dist-tag ${distTag}
 git push origin $currentGitBranch
 
 ## Reinstall using published version
+npm un -g truffle
