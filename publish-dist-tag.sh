@@ -43,3 +43,5 @@ git push origin $currentGitBranch
 ## Reinstall using published version
 npm un -g truffle
 npm i -g truffle@${distTag}
+
+echo -e "\\n\\nWoo!"
